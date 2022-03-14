@@ -24,10 +24,20 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1647292973981130ec": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "1647292973981130ec"
   ]
 }
