@@ -8,15 +8,11 @@
       }
     },
     "products": {
-      "type": "productsgrid",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
+      "type": "productsgrid"
     }
   },
   "order": [
     "main",
-    "products"   
+    "products"
   ]
 }
