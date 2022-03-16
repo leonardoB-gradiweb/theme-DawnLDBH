@@ -1,11 +1,14 @@
 {
-    "name": "gradiproducts",
-    "sections": {
-      "productsgrid": {
-        "type": "productsgrid"
+  "sections": {
+    "productsgrid": {
+      "type": "productsgrid",
+      "settings": {
+        "collection": "productsgrid",
+        "rich_text": ""
       }
-    },
-    "order": [
-      "productsgrid"
-    ]
-  }
+    }
+  },
+  "order": [
+    "productsgrid"
+  ]
+}
