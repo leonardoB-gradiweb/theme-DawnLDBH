@@ -1,1 +1,33 @@
-{{product}}
+<div style=" width: 70%; margin: 0 15% 0 15%">
+  
+ 
+   <div style="display:inline-block">
+        <img src="{{ product | image_url }}" alt="{{ product.title }}" />
+   </div>
+    <div style="display:inline-block">
+        <h1 style="color: gray; text-align: center">{{ product.title }}</h1>
+        <p style="font-size: 18px">$ {{ product.price }} COP</p>
+        {% for option in product.options %}
+        {% for product_option in product.options_with_values %}
+        <label>
+          {{ product_option.name }} <br>
+          <select>
+            {% for value in product_option.values %}
+              <option {% if product_option.selected_value == value %}selected{% endif %}>
+                {{ value }}
+              </option>
+            {% endfor %}
+          </select>
+        </label>
+      {% endfor %}
+        {% endfor %}
+        
+    </div> 
+        
+     
+      
+        
+     
+    
+  </table>
+</div>
